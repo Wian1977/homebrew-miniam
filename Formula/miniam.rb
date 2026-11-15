@@ -1,5 +1,5 @@
 class Miniam < Formula
-  desc "Apple Music in the terminal with true-color cover art and spectrum"
+  desc "Apple Music in the terminal with true-color cover art and a live spectrum"
   homepage "https://github.com/Wian1977/miniam"
   url "https://github.com/Wian1977/miniam/releases/download/v0.1.0/miniam-v0.1.0-linux-x86_64.tar.gz"
   version "0.1.0"
@@ -14,7 +14,7 @@ class Miniam < Formula
   def caveats
     <<~EOS
       Linux x86_64 only. Requires pactl/parec (PipeWire or PulseAudio)
-      and Firefox or Chrome with Widevine CDM.
+      and an official Firefox or Chrome build.
       A browser window opens on first launch to sign in to Apple Music once.
     EOS
   end
