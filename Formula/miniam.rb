@@ -1,9 +1,9 @@
 class Miniam < Formula
   desc "Apple Music in the terminal with true-color cover art and a live spectrum"
   homepage "https://github.com/Wian1977/miniam"
-  url "https://github.com/Wian1977/miniam/releases/download/v0.1.0/miniam-v0.1.0-linux-x86_64.tar.gz"
-  version "0.1.0"
-  sha256 "d1f9540ed235852b88e78f9ae5ffc7b5d581806b586c94f3bae089f632917e33"
+  url "https://github.com/Wian1977/miniam/releases/download/v0.1.1/miniam-v0.1.1-linux-x86_64.tar.gz"
+  version "0.1.1"
+  sha256 "a923813c2a9878639c4b03bff861490d5978ec1e9cc121d57721b351553a1204"
 
   depends_on :linux
 
